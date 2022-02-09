@@ -13,8 +13,12 @@ const personalMovieDB = {
 };
 
 // 3
-const movie = prompt("What was the last movie you've watched?", "");
-const score = +prompt("How would you rate it?", "");
+const movie = prompt("What was the last movie you've watched?", ""),
+            score = +prompt("How would you rate it?", ""),
+            movie2 = prompt("What was the last movie you've watched?", ""),
+            score2 = +prompt("How would you rate it?", "");
 
 personalMovieDB.movies[movie] = score;
+personalMovieDB.movies[movie2] = score2;
+
 console.log(personalMovieDB);
