@@ -39,7 +39,7 @@
 // const user = 'Ivan';
 // alert(`Hi ${user}`)
 
-let incr = 10,
-      decr = 1;
+// let incr = 10,
+//       decr = 1;
 
-      console.log(incr++, --decr);
+//       console.log(incr++, --decr);
